@@ -10,10 +10,17 @@ class Postlist extends React.Component {
   }
 
   renderList = () => {
+    const type = "blahblah"
     return this.props.posts.map(post => (
       <div className="item" key={post.id}>
         <i className="large middle aligned icon user" />
         <div className="content">
+          <button
+            type={type}
+            className="button"
+          >
+            Test
+          </button>
           <div className="description">
             <h2>{post.title}</h2>
             <p>{post.body}</p>
