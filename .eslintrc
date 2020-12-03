@@ -1,0 +1,12 @@
+{
+    "extends": ["eslint:all", "plugin:react/all"],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": ["react"],
+    "rules": {
+        "react/button-has-type": "error"
+    }
+}
