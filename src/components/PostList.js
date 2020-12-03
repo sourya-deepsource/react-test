@@ -15,6 +15,7 @@ class Postlist extends React.Component {
       <div className="item" key={post.id}>
         <i className="large middle aligned icon user" />
         <div className="content">
+        {/* eslint-disable-next-line react/button-has-type */}
           <button
             type={type}
             className="button"
