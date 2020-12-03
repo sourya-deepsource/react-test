@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Button = ({ type }) => {
 
   /*
@@ -5,9 +7,8 @@ const Button = ({ type }) => {
    */
 
   return (
-    // eslint-disable-next-line react/button-has-type
     <button
-      type={type}
+      type="foo"
       className="button"
     >
       Test
